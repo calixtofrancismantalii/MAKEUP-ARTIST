@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: indianred;
+    font-size: 15px;
+}
+
+.container{
+    max-width: 1220px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+nav > button{
+/*    display: none;*/
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
