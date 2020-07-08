@@ -9,10 +9,19 @@ html{
     color: white;
 }
 
+/*UNIVERSAL-STYLE*/
 .container{
     max-width: 1220px;
     margin: auto;
 }
+.column{
+    display: flex;
+    height: 525px;
+}
+.column > div{
+    width: 50%;
+}
+
 
 /*HEADER-NAVBAR-HERO*/
 header{
@@ -20,7 +29,6 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: brown;
     min-height: 650px;
 }
 nav{
@@ -105,14 +113,7 @@ li > a{
 
 
 /*SECTION-ONE*/
-#one .column{
-    display: flex;
-    height: 525px;
-}
-#one .column > div{
-    width: 50%;
-}
-#one .column h2{
+.column h2{
     font-size: 45px;
     font-weight: normal;
     padding: 20px 0px;
@@ -155,6 +156,33 @@ li > a{
     font-weight: bold;
 }
 #one .text-wraper button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+
+
+/*SECTION-TWO*/
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+.text p{
+    line-height: 30px;
+}
+.text-wraper button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+.text-wraper button:hover{
     cursor: pointer;
     background-color: #ff4373;
     color: white;
