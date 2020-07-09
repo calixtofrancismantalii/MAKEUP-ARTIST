@@ -5,9 +5,11 @@
 }
 html{
     background-color: #27231c;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
+    font-family: 'Abhaya Libre';
 }
+
 
 /*UNIVERSAL-STYLE*/
 .container{
@@ -16,11 +18,58 @@ html{
 }
 .column{
     display: flex;
-    height: 525px;
+/*    height: 540px;*/
 }
 .column > div{
     width: 50%;
 }
+h2{
+    font-size: 45px;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+p{
+    line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+.text p{
+    line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 120px;
+}
+.text h6{
+    font-size: 150%;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    padding: 30px 0px;
+}
+.text-wraper button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+.text-wraper button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+.checked{
+    color: #ffca00;
+}
+
 
 
 /*HEADER-NAVBAR-HERO*/
@@ -50,8 +99,12 @@ li > a{
     text-decoration: none;
     display: block;
     padding: 20px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
 }
 
+
+/*INTRO*/
 .intro{
 /*    background-color: blueviolet;*/
     height: 60vh;
@@ -66,12 +119,10 @@ li > a{
 }
 .intro h6{
     font-size: 150%;
-    font-family: 'Playfair Display', serif;
     font-weight: normal;
 }
 .intro h1{
     font-size: 500%;
-    font-family: 'Playfair Display', serif;
     font-weight: normal;
     padding: 20px 0px;
 }
@@ -98,6 +149,8 @@ li > a{
     flex-wrap: wrap;
     padding: 15px 0px;
     margin-bottom: 90px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
 }
 .contact-links > div{
     flex: 1;
@@ -111,91 +164,75 @@ li > a{
 }
 
 
-/*SECTION-ONE*/
-.column h2{
-    font-size: 45px;
-    font-weight: normal;
-    padding: 20px 0px;
-}
-#one .about-me-wraper{
+/*ABOUT-ME-WRAPER*/
+#about-me-wraper{
     display: flex;
 }
-#one .about-me-wraper > div{
+#about-me-wraper > div{
     width: 50%;
 }
-#one .about-me-wraper .about{
+#about-me-wraper .about{
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#one .about-me-wraper .artist{
+#about-me-wraper .artist{
     background-image:  url(images/about-me-image.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
 }
-#one .text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 120px;
-}
-#one .text p{
-    line-height: 30px;
-}
-#one .text-wraper button{
-    padding: 20px 40px;
-    background-color: inherit;
-    outline: none;
-    border: solid 2px #ff4373;
-    margin-top: 40px;
-    color: #ff4373;
-    font-weight: bold;
-}
-#one .text-wraper button:hover{
-    cursor: pointer;
-    background-color: #ff4373;
-    color: white;
-    transition: 0.4s;
-}
 
 
 /*SECTION-TWO*/
-.text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 120px;
-}
-.text h6{
-    font-size: 150%;
-    font-family: 'Playfair Display', serif;
-    font-weight: normal;
-    padding: 30px 0px;
-}
-.text p{
-    line-height: 30px;
-}
-.text-wraper button{
-    padding: 20px 40px;
-    background-color: inherit;
-    outline: none;
-    border: solid 2px #ff4373;
-    margin-top: 40px;
-    color: #ff4373;
-    font-weight: bold;
-}
-.text-wraper button:hover{
-    cursor: pointer;
-    background-color: #ff4373;
-    color: white;
-    transition: 0.4s;
-}
 #section-two-showcase-image{
     background-image: url(images/section-two.image.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
+}
+
+
+/*SECTION-TWO*/
+#section-three-showcase-image{
+    background-image: url(images/section-three.image.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+
+/*COMMENTS*/
+#what-they-say{
+    text-align: center;
+    padding: 50px 0px;
+}
+#what-they-say h2{
+    font-size: 45px;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.client-comment{
+    padding: 30px 60px;
+}
+.comment-text{
+    padding: 10px 0px;
+}
+.client-wraper{
+    display: flex;
+    align-items: center;
+}
+.client-wraper > div{
+    margin-left: 15px;
+}
+.client-wraper span{
+   line-height: 1px;
+}
+.client-name, .client-title{
+    line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+    font-size: 13px;
 }
