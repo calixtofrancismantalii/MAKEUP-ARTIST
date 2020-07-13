@@ -72,7 +72,7 @@ p{
 
 
 
-/*HEADER-NAVBAR-HERO*/
+/*HEADER with NAVBAR = HERO*/
 header{
     background-image: url(images/hero.png);
     background-repeat: no-repeat;
@@ -170,7 +170,6 @@ li > a{
 }
 #about-me-wraper > div{
     width: 50%;
-/*    height: 20px;*/
 }
 #about-me-wraper .about{
     background-color: white;
@@ -196,7 +195,7 @@ li > a{
 }
 
 
-/*SECTION-TWO*/
+/*SECTION-THREE*/
 #section-three-showcase-image{
     background-image: url(images/section-three.image.png);
     background-repeat: no-repeat;
@@ -283,10 +282,7 @@ footer #copyright{
 /*MOBILE SCREEN*/
 @media screen and (max-width: 481px){
     
-    
-    header{
-        min-height: 350px;
-    }
+    /*UNIVERSAL-STYLE*/
     .column{
         display: flex;
         flex-direction: column;
@@ -294,7 +290,23 @@ footer #copyright{
     .column > div{
         width: 100%;
     }
+    .text{
+        padding: 60px 30px;
+        text-align: center;
+    }
+    .text h2, .about h2, #what-they-say h2, footer h2{
+/*        background-color: aquamarine;*/
+        font-size: 38px;
+    }
+    .services-line{
+        margin: auto;
+    }
     
+    
+    /*HEADER with NAVBAR = HERO*/
+    header{
+        min-height: 350px;
+    }
     nav{
         display: flex;
         flex-direction: column;
@@ -332,10 +344,14 @@ footer #copyright{
         border-top: solid 1px white;
     }
     
+    
+    /*INTRO*/
     .intro h1{
         font-size: 38px;
     }
     
+    
+    /*CONTACT-LINKS*/
     .contact-links{
         display: flex;
         flex-direction: column;
@@ -344,6 +360,8 @@ footer #copyright{
         padding: 20px 0px;
     }
     
+    
+    /*ABOUT-ME-WRAPER*/
     #about-me-wraper{
         display: flex;
         flex-direction: column;
@@ -358,30 +376,36 @@ footer #copyright{
         height: 520px;
     }
     
-    .text{
-        padding: 60px 30px;
-        text-align: center;
-    }
-    .text h2, .about h2, #what-they-say h2, footer h2{
-/*        background-color: aquamarine;*/
-        font-size: 38px;
-    }
-    
-    .services-line{
-        margin: auto;
-    }
+   
+    /*SECTION-TWO*/
     #two .column{
         flex-direction: column-reverse;
     }
     #section-two-showcase-image{
         height: 250px;
     }
+    
+    
+    /*SECTION-THREE*/
     #section-three-showcase-image{
         height: 250px;
     }
    
+    
+    /*COMMENTS*/
     .client-comment{
         padding: 30px;
     }
     
+    
+    /*FOOTER*/
+    footer #copyright{
+        padding: 60px 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer #copyright > div{
+        padding: 10px 0px;
+    }
 }
