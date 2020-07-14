@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: #27231c;
+    font-size: 15px;
+    color: white;
+    font-family: 'Abhaya Libre';
+}
+
+
+/*UNIVERSAL-STYLE*/
+.container{
+    max-width: 1220px;
+    margin: auto;
+}
+.column{
+    display: flex;
+/*    height: 540px;*/
+}
+.column > div{
+    width: 50%;
+}
+h2{
+    font-size: 45px;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+p{
+    line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+.text p{
+    line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 120px;
+}
+.text h6{
+    font-size: 150%;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    padding: 30px 0px;
+}
+.text-wraper button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+.text-wraper button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+.checked{
+    color: #ffca00;
+}
+
+
+
+
+/*HEADER with NAVBAR = HERO*/
+header{
+    background-image: url(/images/hero.for.services.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 550px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+nav button{
+    display: none;
+}
+#ul{
+    list-style-type: none;
+    display: flex;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+
+
+/*INTRO*/
+.intro{
+/*    background-color: blueviolet;*/
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.intro > div{
+    text-align: center;
+}
+.intro h6{
+    font-size: 150%;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.intro h1{
+    font-size: 500%;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.intro p{
+    width: 80%;
+    margin: auto;
+}
+.intro button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+.intro button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+
+
+
+/*FOOTER*/
+.footer-background-image{
+    background-image: url(/images/footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+footer > div:nth-child(odd){
+    text-align: center;
+    width: 73%;
+    margin: auto;
+}
+footer > div{
+    padding: 75px 0px;
+}
+footer p{
+    padding: 30px 0px;
+}
+footer button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+footer button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+footer #copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
