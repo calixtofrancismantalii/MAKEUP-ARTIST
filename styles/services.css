@@ -22,6 +22,7 @@ html{
 }
 .column > div{
     width: 50%;
+    height: 550px;
 }
 h2{
     font-size: 45px;
@@ -39,12 +40,14 @@ p{
     letter-spacing: 1px;
     font-size: 14px;
 }
+/*
 .text{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 90px 120px;
 }
+*/
 .text h6{
     font-size: 150%;
     font-family: 'Playfair Display', serif;
@@ -146,6 +149,28 @@ li > a{
     background-color: #ff4373;
     color: white;
     transition: 0.4s;
+}
+
+
+/*SECTION-TWO*/
+#section-two{
+    background-color: blueviolet;
+}
+#section-two-image{
+    background-color: aqua;
+    background-image: url(/images/section-two.image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: -80px;
+    width: 85%;
+    height: inherit;
+}
+#section-two .text{
+    background-color: mediumvioletred;
+/*    width: 50%;*/
+    margin: 90px 0px;
+    opacity: 0.5;
 }
 
 
