@@ -18,11 +18,9 @@ html{
 }
 .column{
     display: flex;
-/*    height: 540px;*/
 }
 .column > div{
     width: 50%;
-    height: 550px;
 }
 h2{
     font-size: 45px;
@@ -40,21 +38,13 @@ p{
     letter-spacing: 1px;
     font-size: 14px;
 }
-/*
-.text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 90px 120px;
-}
-*/
 .text h6{
     font-size: 150%;
     font-family: 'Playfair Display', serif;
     font-weight: normal;
     padding: 30px 0px;
 }
-.text-wraper button{
+.text-wrapper button{
     padding: 20px 40px;
     background-color: inherit;
     outline: none;
@@ -63,7 +53,7 @@ p{
     color: #ff4373;
     font-weight: bold;
 }
-.text-wraper button:hover{
+.text-wrapper button:hover{
     cursor: pointer;
     background-color: #ff4373;
     color: white;
@@ -153,8 +143,13 @@ li > a{
 
 
 /*SECTION-TWO*/
-#section-two{
-    background-color: blueviolet;
+section{
+/*    background-color: aqua;*/
+/*    height: 550px;*/
+}
+#section-two .column{
+/*    background-color: blueviolet;*/
+/*    height: 200px;*/
 }
 #section-two-image{
     background-color: aqua;
@@ -162,16 +157,39 @@ li > a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-right: -80px;
+    margin-right: -90px;
     width: 85%;
-    height: inherit;
+    height: 553px; 
+}
+.text-wrapper{
+    background-color: white;
+    margin: 50px 0px;
+    margin-right: 130px;
+    padding: 50px;
 }
 #section-two .text{
-    background-color: mediumvioletred;
+/*    background-color: aqua;*/
+/*    background-color: white;*/
+    color: black;
+/*    padding: 50px;*/
 /*    width: 50%;*/
-    margin: 90px 0px;
-    opacity: 0.5;
+/*    margin: 50px 0px;*/
+/*    margin-right: 90px;*/
+/*    opacity: 0.5;*/
 }
+.service-title{
+    font-size: 2em;
+/*    padding: 50px;*/
+}
+
+
+
+
+
+
+
+
+
 
 
 
