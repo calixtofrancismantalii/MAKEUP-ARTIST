@@ -150,21 +150,25 @@ section{
 #section-two .column{
 /*    background-color: blueviolet;*/
 /*    height: 200px;*/
+    display: flex;
+    align-items: center;
+    height: 553px; 
 }
 #section-two-image{
-    background-color: aqua;
+/*    background-color: red;*/
     background-image: url(/images/section-two.image.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     margin-right: -90px;
     width: 85%;
-    height: 553px; 
+/*    height: 553px; */
+    height: inherit;
 }
 .text-wrapper{
     background-color: white;
     margin: 50px 0px;
-    margin-right: 130px;
+    margin-right: 115px;
     padding: 50px;
 }
 #section-two .text{
@@ -182,6 +186,10 @@ section{
 /*    padding: 50px;*/
 }
 
+
+#service-makeup-text-line{
+    margin-right: -100px!important;
+}
 
 
 
