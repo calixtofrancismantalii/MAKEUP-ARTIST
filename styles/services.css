@@ -18,6 +18,8 @@ html{
 }
 .column{
     display: flex;
+    align-items: center;
+    height: 553px; 
 }
 .column > div{
     width: 50%;
@@ -38,11 +40,18 @@ p{
     letter-spacing: 1px;
     font-size: 14px;
 }
+.text{
+    color: black;
+}
 .text h6{
     font-size: 150%;
     font-family: 'Playfair Display', serif;
     font-weight: normal;
     padding: 30px 0px;
+}
+
+.service-title{
+    font-size: 2em;
 }
 .text-wrapper button{
     padding: 20px 40px;
@@ -143,54 +152,45 @@ li > a{
 
 
 /*SECTION-TWO*/
-section{
-/*    background-color: aqua;*/
-/*    height: 550px;*/
-}
-#section-two .column{
-/*    background-color: blueviolet;*/
-/*    height: 200px;*/
-    display: flex;
-    align-items: center;
-    height: 553px; 
-}
 #section-two-image{
-/*    background-color: red;*/
     background-image: url(/images/section-two.image.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     margin-right: -90px;
     width: 85%;
-/*    height: 553px; */
     height: inherit;
 }
-.text-wrapper{
+#section-two .text-wrapper{
     background-color: white;
     margin: 50px 0px;
     margin-right: 115px;
     padding: 50px;
 }
-#section-two .text{
-/*    background-color: aqua;*/
-/*    background-color: white;*/
-    color: black;
-/*    padding: 50px;*/
-/*    width: 50%;*/
-/*    margin: 50px 0px;*/
-/*    margin-right: 90px;*/
-/*    opacity: 0.5;*/
-}
-.service-title{
-    font-size: 2em;
-/*    padding: 50px;*/
-}
-
-
 #service-makeup-text-line{
     margin-right: -100px!important;
 }
 
+/*SECTION-THREE*/
+#section-three-image{
+    background-image: url(/images/section-two.image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: -90px;
+    width: 85%;
+    height: inherit;
+    z-index: -1;
+}
+#service-hairstyling-text-line{
+    margin-left: -100px!important;
+}
+#section-three .text-wrapper{
+    background-color: white;
+    margin: 50px 0px;
+    margin-left: 115px;
+    padding: 50px;
+}
 
 
 
