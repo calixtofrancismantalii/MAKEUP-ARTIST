@@ -16,6 +16,9 @@ html{
     max-width: 1220px;
     margin: auto;
 }
+section{
+    margin-bottom: 100px;
+}
 .column{
     display: flex;
     align-items: center;
@@ -173,7 +176,7 @@ li > a{
 
 /*SECTION-THREE*/
 #section-three-image{
-    background-image: url(/images/section-two.image.png);
+    background-image: url(/images/services-section-three.image.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -190,6 +193,20 @@ li > a{
     margin: 50px 0px;
     margin-left: 115px;
     padding: 50px;
+}
+#section-three .text-wrapper h1{
+    text-align: right;
+}
+
+/*SECTION-FOUR*/
+#section-four-image{
+    background-image: url(/images/services-section-four.image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: -90px;
+    width: 85%;
+    height: inherit;
 }
 
 
