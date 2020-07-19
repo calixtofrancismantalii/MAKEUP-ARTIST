@@ -208,6 +208,16 @@ li > a{
     width: 85%;
     height: inherit;
 }
+#section-four .text-wrapper{
+    background-color: red;
+    background-color: white;
+    margin: 50px 0px;
+    margin-right: 115px;
+    padding: 50px;
+}
+#service-bridalmakeup-text-line{
+    margin-right: -100px!important;
+}
 
 
 
