@@ -11,13 +11,14 @@ html{
 }
 
 
+
 /*UNIVERSAL-STYLE*/
 .container{
     max-width: 1220px;
     margin: auto;
 }
 section{
-    margin-bottom: 100px;
+    margin-bottom: 250px;
 }
 .column{
     display: flex;
@@ -75,9 +76,6 @@ p{
     color: #ffca00;
 }
 
-
-
-
 /*HEADER with NAVBAR = HERO*/
 header{
     background-image: url(/images/hero.for.services.png);
@@ -108,6 +106,7 @@ li > a{
     font-family: 'Arial';
     letter-spacing: 1px;
 }
+
 
 
 /*INTRO*/
@@ -152,7 +151,6 @@ li > a{
     color: white;
     transition: 0.4s;
 }
-
 
 /*SECTION-TWO*/
 #section-two-image{
@@ -217,6 +215,35 @@ li > a{
 }
 #service-bridalmakeup-text-line{
     margin-right: -100px!important;
+}
+
+/*SECTION-FOUR*/
+#section-five{
+    margin-bottom: 190px;
+}
+#section-five-image{
+    background-image: url(/images/services-section-five.image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: -90px;
+    width: 85%;
+    height: inherit;
+    z-index: -1;
+}
+#section-five .text-wrapper{
+    background-color: red;
+    background-color: white;
+    margin: 50px 0px;
+    margin-left: 115px;
+    padding: 50px;
+    z-index: 1;
+}
+#section-five .text-wrapper h1{
+    text-align: right;
+}
+#service-haircolor-text-line{
+    margin-left: -100px!important;
 }
 
 
