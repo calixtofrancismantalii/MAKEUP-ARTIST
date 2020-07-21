@@ -291,9 +291,14 @@ footer #copyright{
 @media screen and (max-width: 481px){
     
     
+    /*Univsersal Style*/
+    section{
+        margin-bottom: 0px;
+    }
     .column{
         display: flex;
         flex-direction: column!important;
+        height: 653px!important; 
     }
     .column > div{
 /*        background-color: aqua;*/
@@ -359,14 +364,112 @@ footer #copyright{
         background-color: white;
         margin: 0px 0px;
         margin-right: 115px;
-        padding: 30px;
+        padding: 60px 30px;
         width: 100%;
         text-align: center;
     }
     #service-makeup-text-line{
         margin-right: 0px!important;
     }
+    
+    /*SECTION-THREE*/
+    #section-three .column{
+        display: flex;
+        flex-direction: column-reverse!important;
+    }
+    #section-three-image{
+        background-image: url(/images/services-section-three.image.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-left: 0px;
+        width: 100%;
+        height: inherit;
+        z-index: -1;
+    }
+    #section-three .text-wrapper{
+        background-color: white;
+        margin: 0px 0px;
+        margin-right: 115px;
+        padding: 60px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #section-three .text-wrapper h1{
+        text-align: center;
+    }
+    #service-hairstyling-text-line{
+        margin-right: 0px!important;
+    }
+    
+    /*SECTION-FOUR*/
+    #section-four-image{
+        background-size: cover;
+        height: 950px!important;
+        width: 100%;
+        background-color: aqua;
+        margin: 0px;
+    }
+    #section-four .text-wrapper{
+        background-color: white;
+        margin: 0px 0px;
+        margin-right: 115px;
+        padding: 60px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #service-bridalmakeup-text-line{
+        margin-right: 0px!important;
+    }
+    
+    
+    /*SECTION-FIVE*/
+    #section-five .column{
+        display: flex;
+        flex-direction: column-reverse!important;
+    }
+    #section-five-image{
+        background-image: url(/images/services-section-five.image.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-left: 0px;
+        width: 100%;
+        height: inherit;
+        z-index: -1;
+    }
+    #section-five .text-wrapper{
+        background-color: white;
+        margin: 0px 0px;
+        margin-right: 115px;
+        padding: 60px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #section-five .text-wrapper h1{
+        text-align: center;
+    }
+    #service-service-haircolor-text-line-text-line{
+        margin-right: 0px!important;
+    }
+    
 
+     /*FOOTER*/
+    footer h2{
+        font-size: 38px;
+    }
+    footer > div{
+        width: 100%!important;
+        padding: 30px;
+    }
+    footer #copyright{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #copyright > div{
+        padding: 10px 0px;
+    }
     
     
     
