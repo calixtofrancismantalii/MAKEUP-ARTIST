@@ -437,56 +437,7 @@ footer #copyright{
     .services-line{
         margin: auto;
     }
-    
-    
-    /*HEADER with NAVBAR = HERO*/
-/*
-    header{
-        min-height: 350px;
-    }
-    nav{
-        display: flex;
-        flex-direction: column;
-    }
-    nav .titlelogo{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 20px;
-    }
-    nav .titlelogo img{
-        width: 170px;
-    }
-    nav .titlelogo button{
-        display: block;
-        padding: 9px 14px;
-        font-size: 20px;
-        outline: none;
-        border: none;
-        border-radius: 2px;
-    }
-    nav #ul{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        margin-top: 80px;
-        background-color: #27231c;
-        height: 0px;
-        overflow: hidden;
-        transition: 0.4s;
-    }
-    nav #ul li{
-        border-top: solid 1px white;
-    }
-*/
-    
-    
-    /*INTRO*/
-    .intro h1{
-        font-size: 38px;
-    }
+
     
     
     /*CONTACT-LINKS*/
@@ -572,54 +523,6 @@ footer #copyright{
     }
     
     
-    /*HEADER with NAVBAR = HERO*/
-/*
-    header{
-        min-height: 350px;
-    }
-    nav{
-        display: flex;
-        flex-direction: column;
-    }
-    nav .titlelogo{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 20px;
-    }
-    nav .titlelogo img{
-        width: 170px;
-    }
-    nav .titlelogo button{
-        display: block;
-        padding: 9px 14px;
-        font-size: 20px;
-        outline: none;
-        border: none;
-        border-radius: 2px;
-    }
-    nav #ul{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        margin-top: 80px;
-        background-color: #27231c;
-        height: 0px;
-        overflow: hidden;
-        transition: 0.4s;
-    }
-    nav #ul li{
-        border-top: solid 1px white;
-    }
-*/
-    
-    
-    /*INTRO*/
-    .intro h1{
-        font-size: 38px;
-    }
     
     
     /*CONTACT-LINKS*/
@@ -681,3 +584,5 @@ footer #copyright{
         padding: 10px 50px;
     }
 }
+
+
