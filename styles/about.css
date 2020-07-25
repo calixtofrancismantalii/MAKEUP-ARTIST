@@ -17,6 +17,12 @@ html{
     max-width: 1220px;
     margin: auto;
 }
+.column{
+    display: flex;
+}
+.column > div{
+    width: 50%;
+}
 
 
 /*HEADER with NAVBAR = HERO*/
@@ -78,6 +84,7 @@ li > a{
 .intro p{
     width: 80%;
     margin: auto;
+    line-height: 30px;
 }
 .intro button{
     padding: 20px 40px;
@@ -98,13 +105,49 @@ li > a{
 
 /*SECTION-TWO*/
 #section-two{
-    background-color: indianred;
+/*    background-color: indianred;*/
+    
 }
 #section-two-image{
     background-image: url(/images/about-me-image.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+}
+.text{
+    background-color: white;
+    color: black;
+    padding: 80px;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+/*    align-content: center;*/
+}
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+    
+}
+.text-wrapper h2{
+     font-size: 45px;
+}
+.paragraphs{
+    display: flex;
+    padding: 50px 0px;
+}
+.paragraphs > div{
+    width: 50%;
+    margin: 0px 10px;
+    line-height: 30px;
+}
+.companylogo{
+    padding: 50px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 
