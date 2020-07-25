@@ -128,8 +128,6 @@ li > a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: inherit;
-    
 }
 .text-wrapper h2{
      font-size: 45px;
