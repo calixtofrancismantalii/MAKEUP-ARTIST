@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: #27231c;
+    font-size: 15px;
+    color: white;
+    font-family: 'Abhaya Libre';
+}
+
+
+
+/*UNIVERSAL-STYLE*/
+.container{
+    max-width: 1220px;
+    margin: auto;
+}
+
+
+/*HEADER with NAVBAR = HERO*/
+header{
+    background-image: url(/images/hero.for.about.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 550px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+nav button{
+    display: none;
+}
+nav #ul{
+    list-style-type: none;
+    display: flex;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+
+
+
+/*INTRO*/
+.intro{
+/*    background-color: blueviolet;*/
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.intro > div{
+    text-align: center;
+}
+.intro h6{
+    font-size: 150%;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.intro h1{
+    font-size: 500%;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.intro p{
+    width: 80%;
+    margin: auto;
+}
+.intro button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+.intro button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+
+
+/*SECTION-TWO*/
+#section-two{
+    background-color: indianred;
+}
+#section-two-image{
+    background-image: url(/images/about-me-image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+
+
+
