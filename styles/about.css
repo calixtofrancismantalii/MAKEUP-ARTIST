@@ -12,6 +12,12 @@ html{
 
 
 
+
+
+
+
+
+
 /*UNIVERSAL-STYLE*/
 .container{
     max-width: 1220px;
@@ -23,6 +29,23 @@ html{
 .column > div{
     width: 50%;
 }
+h2{
+    font-size: 45px;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    line-height: 30px;
+}
+section{
+      margin-top: 60px;
+}
+
 
 
 /*HEADER with NAVBAR = HERO*/
@@ -103,9 +126,11 @@ li > a{
 }
 
 
+
 /*SECTION-TWO*/
 #section-two{
 /*    background-color: indianred;*/
+    
     
 }
 #section-two-image{
@@ -122,15 +147,6 @@ li > a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-/*    align-content: center;*/
-}
-.text-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.text-wrapper h2{
-     font-size: 45px;
 }
 .paragraphs{
     display: flex;
@@ -139,7 +155,6 @@ li > a{
 .paragraphs > div{
     width: 50%;
     margin: 0px 10px;
-    line-height: 30px;
 }
 .companylogo{
     padding: 50px 0px;
@@ -147,6 +162,67 @@ li > a{
     display: flex;
     justify-content: space-around;
 }
+
+
+
+/*SECTION-THREE*/
+#section-three{
+    padding: 80px 0px;
+}
+#section-three .text-wrapper{
+    padding: 0px 150px;
+    text-align: center;
+}
+#certificates{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+}
+
+
+
+/*FOOTER*/
+.footer-background-image{
+    background-image: url(/images/footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+footer > div:nth-child(odd){
+    text-align: center;
+    width: 73%;
+    margin: auto;
+}
+footer > div{
+    padding: 75px 0px;
+}
+footer p{
+    padding: 30px 0px;
+}
+footer button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+footer button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+footer #copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
 
 
 

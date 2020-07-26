@@ -8,8 +8,14 @@ html{
     font-size: 15px;
     color: white;
     font-family: 'Abhaya Libre';
-/*    scroll-behavior: smooth;*/
 }
+
+
+
+
+
+
+
 
 
 /*UNIVERSAL-STYLE*/
@@ -53,7 +59,6 @@ p{
     font-weight: normal;
     padding: 30px 0px;
 }
-
 .service-title{
     font-size: 2em;
 }
@@ -75,6 +80,8 @@ p{
 .checked{
     color: #ffca00;
 }
+
+
 
 /*HEADER with NAVBAR = HERO*/
 header{
@@ -152,7 +159,12 @@ li > a{
     transition: 0.4s;
 }
 
+
+
 /*SECTION-TWO*/
+#section-two{
+    margin-top: 60px;
+}
 #section-two-image{
     background-image: url(/images/section-two.image.png);
     background-repeat: no-repeat;
@@ -171,6 +183,8 @@ li > a{
 #service-makeup-text-line{
     margin-right: -100px!important;
 }
+
+
 
 /*SECTION-THREE*/
 #section-three-image{
@@ -196,6 +210,8 @@ li > a{
     text-align: right;
 }
 
+
+
 /*SECTION-FOUR*/
 #section-four-image{
     background-image: url(/images/services-section-four.image.png);
@@ -216,6 +232,8 @@ li > a{
 #service-bridalmakeup-text-line{
     margin-right: -100px!important;
 }
+
+
 
 /*SECTION-FOUR*/
 #section-five{
@@ -245,6 +263,8 @@ li > a{
 #service-haircolor-text-line{
     margin-left: -100px!important;
 }
+
+
 
 /*FOOTER*/
 .footer-background-image{
@@ -284,6 +304,13 @@ footer #copyright{
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+
+
+
+
+
 
 
 /*MOBILE SCREEN*/
@@ -611,5 +638,3 @@ footer #copyright{
     } 
     
 }
-
-

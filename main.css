@@ -11,6 +11,13 @@ html{
 }
 
 
+
+
+
+
+
+
+
 /*UNIVERSAL-STYLE*/
 .container{
     max-width: 1220px;
@@ -104,6 +111,7 @@ li > a{
 }
 
 
+
 /*INTRO*/
 .intro{
 /*    background-color: blueviolet;*/
@@ -143,6 +151,7 @@ li > a{
 }
 
 
+
 /*CONTACT-LINKS*/
 .contact-links{
     display: flex;
@@ -162,6 +171,7 @@ li > a{
     font-size: 25px;
     padding: 20px;
 }
+
 
 
 /*ABOUT-ME-WRAPER*/
@@ -186,6 +196,7 @@ li > a{
 }
 
 
+
 /*SECTION-TWO*/
 #section-two-showcase-image{
     background-image: url(images/section-two.image.png);
@@ -195,6 +206,7 @@ li > a{
 }
 
 
+
 /*SECTION-THREE*/
 #section-three-showcase-image{
     background-image: url(images/section-three.image.png);
@@ -202,6 +214,7 @@ li > a{
     background-position: top;
     background-size: contain;
 }
+
 
 
 /*COMMENTS*/
@@ -236,6 +249,7 @@ li > a{
     letter-spacing: 1px;
     font-size: 13px;
 }
+
 
 
 /*FOOTER*/
@@ -276,6 +290,12 @@ footer #copyright{
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+
+
+
+
 
 
 
@@ -584,5 +604,3 @@ footer #copyright{
         padding: 10px 50px;
     }
 }
-
-
