@@ -325,7 +325,24 @@ footer #copyright{
         width: 50%;
     }
     
-    
+    /*SECTION-THREE*/
+    #section-three .text-wrapper{
+        padding: 0px 30px;
+    }
+    #certificates{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #certificates > div{
+        padding-bottom: 50px;
+    }
+    #certificates img{
+        width: 80%;
+        margin: auto;
+    }
     
     /*FOOTER*/
     footer #copyright{
