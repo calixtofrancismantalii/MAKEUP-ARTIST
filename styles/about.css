@@ -326,6 +326,9 @@ footer #copyright{
     }
     
     /*SECTION-THREE*/
+    #section-three{
+        padding: 0px 0px;
+    }
     #section-three .text-wrapper{
         padding: 0px 30px;
     }
