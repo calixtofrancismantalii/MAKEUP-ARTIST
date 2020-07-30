@@ -359,3 +359,29 @@ footer #copyright{
     }
     
 }
+/*TABLET SCREEN*/
+@media screen and (max-width: 768px){
+    
+    .text{
+        padding: 30px;
+        text-align: center;
+    }
+    #section-two .text-wrapper{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .paragraphs{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .paragraphs > div{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    #certificates{
+        display: flex;
+        flex-direction: column;
+    }
+}
