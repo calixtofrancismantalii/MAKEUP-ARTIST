@@ -401,3 +401,43 @@ footer #copyright{
 
   
 }
+/*LARGER TABLET*/
+@media screen and (max-width: 1279px){
+    
+    /*SECTION-TWO*/
+    .text{
+        padding: 30px;
+        text-align: center;
+    }
+    #section-two .text-wrapper{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .paragraphs{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .paragraphs > div{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    
+    /*SECTION-THREE*/
+    #section-three .text-wrapper{
+        padding: 95px;
+    }
+    #certificates{
+        display: flex;
+        text-align: center;
+        padding: 0px 0px;
+        
+    }
+    #certificates > div img{
+        width: 88%;
+    }
+        
+    
+}
