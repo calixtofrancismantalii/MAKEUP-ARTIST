@@ -330,7 +330,7 @@ footer #copyright{
         padding: 0px 0px;
     }
     #section-three .text-wrapper{
-        padding: 0px 30px;
+        padding: 0px 30px!important;
     }
     #certificates{
         display: flex;
@@ -338,6 +338,8 @@ footer #copyright{
         align-items: center;
         justify-content: center;
         text-align: center;
+        
+        padding: 50px 30px!important;
     }
     #certificates > div{
         padding-bottom: 50px;
@@ -362,6 +364,7 @@ footer #copyright{
 /*TABLET SCREEN*/
 @media screen and (max-width: 768px){
     
+    /*SECTION-TWO*/
     .text{
         padding: 30px;
         text-align: center;
@@ -380,8 +383,21 @@ footer #copyright{
         margin: 20px 0px;
         width: 100%;
     }
+  
+    
+    /*SECTION-THREE*/
+    #section-three .text-wrapper{
+        padding: 95px;
+    }
     #certificates{
         display: flex;
-        flex-direction: column;
+        text-align: center;
+        padding: 0px 0px;
+        
     }
+    #certificates > div img{
+        width: 88%;
+    }
+
+  
 }
