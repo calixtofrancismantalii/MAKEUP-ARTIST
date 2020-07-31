@@ -26,9 +26,6 @@ html{
 .column{
     display: flex;
 }
-.column > div{
-    width: 50%;
-}
 h2{
     font-size: 45px;
     font-weight: normal;
@@ -124,3 +121,16 @@ li > a{
     color: white;
     transition: 0.4s;
 }
+
+
+
+/*SECTION-TWO*/
+.services-pricing{
+    background-color: white;
+    color: black;
+    width: 65%;
+}
+.text{
+    width: 35%;
+}
+
