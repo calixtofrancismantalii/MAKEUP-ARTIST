@@ -129,8 +129,21 @@ li > a{
     background-color: white;
     color: black;
     width: 65%;
+    padding: 80px 90px;
+}
+.services-pricing-wrapper > p span{
+    font-size: 50px;
+    
 }
 .text{
     width: 35%;
 }
-
+.col-1-price-list span, .col-2-price-list span{
+    color: #ff4373;
+    padding: 20px 0px;
+    display: block;
+    font-weight: bold;
+}
+.col-1-price-list > div, .col-2-price-list > div{
+    padding: 30px 0px;
+}
