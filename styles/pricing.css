@@ -25,6 +25,7 @@ html{
 }
 .column{
     display: flex;
+    align-items: center;
 }
 h2{
     font-size: 45px;
@@ -137,6 +138,8 @@ li > a{
 }
 .text{
     width: 35%;
+    padding: 80px;
+    text-align: center;
 }
 .col-1-price-list span, .col-2-price-list span{
     color: #ff4373;
