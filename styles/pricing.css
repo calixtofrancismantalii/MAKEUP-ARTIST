@@ -30,7 +30,7 @@ html{
 h2{
     font-size: 45px;
     font-weight: normal;
-    padding: 20px 0px;
+/*    padding: 20px 0px;*/
 }
 .text-wrapper{
     display: flex;
