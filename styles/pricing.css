@@ -39,6 +39,7 @@ h2{
 }
 p{
     line-height: 30px;
+    font-family: 'Arial';
 }
 section{
       margin-top: 60px;
@@ -160,7 +161,7 @@ li > a{
 /*SECTION-THREE*/
 #section-three .intro{
     text-align: center;
-    padding: 0px 90px;
+    padding: 0px 180px;
     height: 40vh;
 }
 #section-three p{
