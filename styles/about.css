@@ -41,6 +41,8 @@ h2{
 }
 p{
     line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
 }
 section{
       margin-top: 60px;
