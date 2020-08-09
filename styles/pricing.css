@@ -138,10 +138,18 @@ li > a{
     width: 65%;
     padding: 80px 90px;
 }
-.services-pricing-wrapper > p span{
-    font-size: 50px;
-    
+#text-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+#text-button > span{
+    font-size: 50px;
+}
+
+
+
+
 .text{
     width: 35%;
     padding: 80px;
@@ -280,6 +288,35 @@ footer #copyright{
     }
     
     
+    
+    /*INTRO*/
+    .intro h1{
+        font-size: 38px!important;
+    }
+    
+    
+    
+    /*SECTION-TWO*/
+    #section-two .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .services-pricing{
+        width: 100%;
+        padding: 30px;
+    }
+    
+    
+    
+    /*SECTION-THREE*/
+    #section-three .column{
+        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+    #section-three .question-column{
+        background-color: aqua;
+    }
     
     
 }
