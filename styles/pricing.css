@@ -299,11 +299,20 @@ footer #copyright{
     /*SECTION-TWO*/
     #section-two .column{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .services-pricing{
         width: 100%;
-        padding: 30px;
+        padding: 80px 30px;
+    }
+    #text-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .col-1-price-list, .col-2-price-list{
+        text-align: center;
     }
     
     
