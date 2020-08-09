@@ -160,6 +160,9 @@ li > a{
 
 
 /*SECTION-THREE*/
+#section-three{
+	background-color: aqua;
+}
 #section-three .intro{
     text-align: center;
     padding: 0px 180px;
