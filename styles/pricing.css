@@ -170,6 +170,7 @@ li > a{
     margin: 0px;
 }
 .question-column{
+<<<<<<< HEAD
     padding: 0px 80px;
 }
 .question-column > div:not(.bottom-line-question){
@@ -180,3 +181,16 @@ li > a{
     padding-bottom: 30px;
     display: block;
 }
+=======
+	padding: 0px 80px;
+	
+}
+.question-column > div:not(.bottom-line-question){
+	padding: 55px 0px;
+}
+.question-column span{
+	font-size: 24px;
+	padding-bottom: 30px;
+	display: block;
+}
+>>>>>>> a6082aa517c09414078e86f554569e75e7ee8867
