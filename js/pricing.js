@@ -1,9 +1,9 @@
-function showMenu(){
+function showMenu() {
     
     var ul;
     ul = document.getElementById("ul");
     
-    if(ul.style.height === "0px"){
+    if (ul.style.height === "0px"){
         ul.style.height = "290px";
     }
     else{
@@ -15,34 +15,22 @@ function showMenu(){
 
 
 
-function on(){
+
+function offOn() {
     
-    var on, off;
-    on = document.getElementById("on");
+    var off, on;
     off = document.getElementById("off");
+    on = document.getElementById("on");
     
-    if(on.style.display == ""){
-        on.style.display = "none";
-        off.style.display = "block"
-    }
-    else{
-        off.style.display = "";
+    if(off.style.display == ""){
+        off.style.display = "none";
         on.style.display = "block";
     }
-}
-
-function off(){
-    var on, off;
-    on = document.getElementById("on");
-    off =  document.getElementById("off");
-    
-    if(off.style.display == "none"){
-        off.style.display = "block";
-    }
     else{
         off.style.display = "block";
         on.style.display = "none";
     }
+    
 }
 
 

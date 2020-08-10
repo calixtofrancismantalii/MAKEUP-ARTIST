@@ -143,9 +143,18 @@ li > a{
     justify-content: space-evenly;
     align-items: center;
 }
-#text-button > span{
-    font-size: 50px;
+#text-button > button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
 }
+#text-button button > img{
+    
+    width: 80px;
+}
+
 
 
 
