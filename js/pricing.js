@@ -17,12 +17,11 @@ function showMenu() {
 
 
 function offOn() {
-    
-    var off, on;
-    off = document.getElementById("off");
+    var on, off;
     on = document.getElementById("on");
+    off = document.getElementById("off");
     
-    if(off.style.display == ""){
+    if(on.style.display == "none"){
         off.style.display = "none";
         on.style.display = "block";
     }
@@ -30,6 +29,32 @@ function offOn() {
         off.style.display = "block";
         on.style.display = "none";
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+//    var off, on;
+//    off = document.getElementById("off");
+//    on = document.getElementById("on");
+//    
+//    if(off.style.display == ""){
+//        off.style.display = "none";
+//        on.style.display = "block";
+//    }
+//    else{
+//        off.style.display = "block";
+//        on.style.display = "none";
+//    }
     
 }
 
