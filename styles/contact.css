@@ -27,6 +27,9 @@ html{
     display: flex;
     align-items: center;
 }
+.column > div{
+    width: 50%;
+}
 h2{
     font-size: 45px;
     font-weight: normal;
@@ -123,4 +126,13 @@ li > a{
     background-color: #ff4373;
     color: white;
     transition: 0.4s;
+}
+
+
+
+
+/*SECTION-TWO*/
+.contact-form{
+    background-color: white;
+    color: black;
 }
