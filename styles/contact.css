@@ -135,4 +135,44 @@ li > a{
 .contact-form{
     background-color: white;
     color: black;
+    padding: 70px 60px;
+}
+form input, button{
+    display: block;
+}
+.contact-form input{
+    font-size: 16px;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px #eaeaea;
+    background-color: #fafafa;
+    margin: 20px 0px;
+}
+textarea{
+    width: 100%;
+    padding: 15px;
+    height: 130px;
+    font-size: 16px;
+    font-family: arial;
+    outline: none;
+    border: solid 1px #eaeaea;
+    background-color: #fafafa;
+}
+
+button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 20px;
+    color: #ff4373;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
 }
