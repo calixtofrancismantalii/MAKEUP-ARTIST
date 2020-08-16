@@ -218,6 +218,7 @@ footer button{
     margin-top: 40px;
     color: #ff4373;
     font-weight: bold;
+    margin: auto;
 }
 footer button:hover{
     cursor: pointer;
