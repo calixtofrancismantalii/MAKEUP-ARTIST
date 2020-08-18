@@ -242,6 +242,15 @@ footer #copyright{
 @media screen and (max-width:481px){
     
     
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .column > div{
+        width: 100%;
+        padding: 50px 30px;
+    }
+    
     /*HEADER with NAVBAR = HERO*/
     header{
         min-height: 350px;
@@ -291,4 +300,28 @@ footer #copyright{
     .intro h1{
         font-size: 38px!important;
     }
+    
+    
+    
+    /*SECTION-TWO*/
+    .contact-info, #section-two-text-line{
+        text-align: center;
+        margin: auto;
+    }
+    
+    
+    
+    /*FOOTER*/
+    footer #copyright{
+        padding: 60px 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer #copyright > div{
+        padding: 10px 0px!important;
+    }
+    
+    
+    
 }
