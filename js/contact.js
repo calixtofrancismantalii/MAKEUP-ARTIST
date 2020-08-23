@@ -14,10 +14,10 @@ function showMenu() {
 /*Google Map*/
 function myMap(){
     
-    var mapPorp = {
+    var mapProp = {
         center: new google.maps.LatLang(51.047310, -114.057968),
         zoom: 5;
     };
     
-    var map = new google.maps.Map(document.getElementById("makeup-artist-google-map"), mapPorp);
+    var map = new google.maps.Map(document.getElementById("maMap"), mapProp);
 }
