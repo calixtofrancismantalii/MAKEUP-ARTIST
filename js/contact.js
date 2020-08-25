@@ -19,5 +19,5 @@ function myMap(){
         zoom: 5;
     };
     
-    var map = new google.maps.Map(document.getElementById("maMap"), mapProp);
+    var map = new google.maps.Map(document.getElementById("mapa"), mapProp);
 }
