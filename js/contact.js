@@ -23,7 +23,6 @@ function myMap() {
 }
 
 
-
 /*Google Map*/
 //function myMap(){
 //    
