@@ -621,6 +621,11 @@ footer #copyright{
     
 
      /*FOOTER*/
+    footer #copyright{
+        padding: 60px 0px;
+        display: flex;
+        text-align: center;
+    }
     footer h2{
         font-size: 38px;
     }
@@ -628,11 +633,13 @@ footer #copyright{
         width: 100%!important;
         padding: 30px;
     }
+/*
     footer #copyright{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+*/
     #copyright > div{
         padding: 10px 0px;
     } 
