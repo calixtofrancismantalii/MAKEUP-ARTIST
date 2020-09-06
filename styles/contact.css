@@ -33,7 +33,10 @@ html{
 h2{
     font-size: 45px;
     font-weight: normal;
-/*    padding: 20px 0px;*/
+    padding: 20px 0px;
+}
+.contact-info-wrapper > div h2{
+    padding: 0px;
 }
 .text-wrapper{
     display: flex;
