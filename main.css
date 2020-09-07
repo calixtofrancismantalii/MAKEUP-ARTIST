@@ -424,6 +424,9 @@ footer #copyright{
     
     
     /*FOOTER*/
+    footer h2{
+        font-size: 38px;
+    }
     footer #copyright{
         padding: 60px 0px;
         display: flex;
